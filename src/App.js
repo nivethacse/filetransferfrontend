@@ -1,9 +1,9 @@
 import React from "react";
-import { Header } from "./components/header";
+// import { Header } from "./components/header";
 import FileUploadPage from "./FileUploadPage";
 import About from "./components/about";
 import Login from "./components/login";
-import { BrowserRouter as Router, Switch, Route, BrowserRouter , Redirect} from "react-router-dom";
+import { BrowserRouter , Switch, Route, BrowserRouter , Redirect} from "react-router-dom";
 export const App = () => {
   return (
     <BrowserRouter>
