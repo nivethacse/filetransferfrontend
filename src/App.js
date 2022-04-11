@@ -3,7 +3,7 @@ import React from "react";
 import FileUploadPage from "./FileUploadPage";
 import About from "./components/about";
 import Login from "./components/login";
-import { BrowserRouter , Switch, Route, BrowserRouter , Redirect} from "react-router-dom";
+import { BrowserRouter , Switch, Route , Redirect} from "react-router-dom";
 export const App = () => {
   return (
     <BrowserRouter>
